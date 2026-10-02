@@ -1,0 +1,116 @@
+body {
+	background-color: black;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid white;
+	width: 600px;
+	height: 600px;
+	justify-self: center;
+}
+
+.square {
+	box-sizing: border-box;
+	border: 1px solid white;
+}
+.title {
+	text-align: center;
+	margin: 25px;
+}
+
+.title h1 {
+	color: white;
+	font-family: monospace;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+	text-shadow:
+		0 0 5px white,
+		0 0 10px #00ffff,
+		0 0 20px #00ffff;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 25px;
+}
+
+.input label {
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.input input {
+	width: 80px;
+	padding: 8px;
+
+	background-color: black;
+	color: white;
+
+	border: 2px solid white;
+	border-radius: 5px;
+
+	font-family: monospace;
+	font-size: 18px;
+	text-align: center;
+
+	outline: none;
+}
+
+.input input:focus {
+	border-color: #00ffff;
+
+	box-shadow:
+		0 0 5px #00ffff,
+		0 0 10px #00ffff;
+}
+
+
+.warning {
+	color: red;
+	text-align: center;
+	margin-top: 25px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#btn {
+	padding: 8px 20px;
+
+	background-color: black;
+	color: white;
+
+	border: 2px solid white;
+	border-radius: 5px;
+
+	font-family: monospace;
+	font-size: 18px;
+	font-weight: bold;
+
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#btn:hover {
+	background-color: #00ffff;
+	color: black;
+	border-color: #00ffff;
+
+	box-shadow:
+		0 0 5px #00ffff,
+		0 0 10px #00ffff,
+		0 0 20px #00ffff;
+}
+
+#btn:active {
+	transform: scale(0.95);
+}
