@@ -25,3 +25,24 @@ This project lets users draw on a grid by moving the mouse over cells. The grid 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Moraouid/Etch-a-Sketch.git
+
+2. Open index.html in your browser.
+You can also run a local server if preferred:
+
+```bash
+python -m http.server
+```
+
+Then open:
+
+```bash
+http://localhost:8000
+```
+## Usage
+- Enter a grid size in the input field
+- Click the "Submit" button
+- Move your cursor over the grid to draw
+
+## Notes
+- Maximum supported grid size is 100
+- The app is fully front-end based and easy to customize
